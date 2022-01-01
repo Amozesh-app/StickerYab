@@ -3,7 +3,7 @@
 این ربات نوشته شده توسط دانیال ملک زاده (@JanPHP)و دریافت اخبار : @Danial_Rbo
 */
 //====@mriven====//
-define('API_KEY','446095521:AAHjlWQmUkW-9mFmszR4RisqX56kXbfr-_4');
+define('API_KEY','1611764844:AAG9epzhSHNUpnFGj0jbH8oPAtz-dTHSJ20');
 //====@mriven====//
 function makereq($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -35,7 +35,7 @@ $music = $update->message->audio;
 $voice = $update->message->voice;
 $data = $update->callback_query->data;
 $message_id = $update->callback_query->message->message_id;
-$admin = 328130490;
+$admin = 1042446145;
 $Sticker = file_get_contents("data/$from_id/Sticker.txt");
 $step = file_get_contents("data/$from_id/step.txt");
 //====@mriven====//
